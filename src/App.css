@@ -6,12 +6,66 @@
   height: 40vmin;
   pointer-events: none;
 }
+.activity{
+  background-color: rgb(151, 178, 181);
+  height: 15vh;
+  width: 50vw;
+  /* display: flex; */
+  /* justify-content:center; */
+  /* flex-direction: column; */
+  position: absolute;
+  top: 5%;
+  left: 20%;
+  text-align: center;
+  align-items: center;
+  border-radius: 10px;
+  color: black;
+  font-weight: bolder;
+  /* box-shadow: 50px 60px 70px rgb(104, 99, 100); */
+}
+.input{
+  background-color: #d8e0ed;
+  height: 6vh;
+  width: 20vw;
+  border-radius: 10px;
 
+}
+.list{
+  /* background-color: #ccddff; */
+  background-color:rgba(3, 46, 46,0.2);
+  /* background-color: aqua; */
+  height: 55vh;
+  width: 40vw;
+  /* display: flex; */
+  /* justify-content:center; */
+  /* flex-direction: column; */
+  position: absolute;
+  border-radius: 5%;
+  top: 30%;
+  left: 20%;
+  text-align: center;
+  align-items: center;
+  border-radius: 10px;
+  /* font-size: larger; */
+  font-weight: bolder;
+  color: rgb(247, 237, 225);
+}
+.buton{
+  background-color: rgba(7, 123, 123, 0.94);
+  height: 5vh;
+  width: 3vw;
+  border-radius: 6px;
+}
+.btn{
+  background-color:rgb(220, 181, 83);
+  margin-left: 15px;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }
+
 
 .App-header {
   background-color: #282c34;
@@ -26,6 +80,157 @@
 
 .App-link {
   color: #61dafb;
+}
+body{
+  background-color: #ccddff;
+  margin: 0;
+  padding: 0;
+}
+.about{
+  display: flex;
+   background-color:rgb(204,221,255); 
+  justify-content: center; 
+  height: auto;
+   /* height: 80vh;
+  width: 65vw;  */
+  /* position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%); */
+  /* border-radius: 5%;
+  box-shadow: 50px 60px 70px rgb(32, 26, 37); */
+  /* color: white; */ 
+}
+.parent-contact{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25vh;
+}
+.contact{
+  display: flex;
+  background-color: rgb(14, 24, 21);
+  justify-content: center;
+  height: 80vh;
+  width: 75vw;
+  /* height: auto; */
+  /* position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%); */
+  border-radius: 5%;
+  box-shadow: 50px 60px 70px rgb(37, 29, 26);
+  color: white;
+}
+.parent-about{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15vh;
+
+}
+.login{
+  background-color:rgb(25, 25, 84);
+  display: flex;
+  /* justify-items: center; */
+  justify-content: center;
+  /* text-align: center; */
+  align-items: center;
+  flex-direction: column;
+  width: 30vw;
+  height: 50vh;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  border-radius: 10%;
+  box-shadow: 50px 60px 70px rgb(32, 26, 37);
+  /* box-shadow: -50px -60px -70px rgb(32, 26, 37); */
+  color: white;
+}
+.signup{
+  background-color: rgb(25, 25, 84);
+  display: flex;
+  /* justify-items: center; */
+  justify-content: center;
+  /* text-align: center; */
+  align-items: center;
+  flex-direction: column;
+  width: 30vw;
+  height: 60vh;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  border-radius: 10%;
+  box-shadow: 50px 60px 70px rgb(32, 26, 37);
+  color: whitesmoke;
+}
+.sign{
+  top: 0;
+}
+.parent-todo{
+  display: flex;
+  justify-content: center;
+  margin-top: 15vh;
+  /* margin-bottom: 15vh; */
+  /* align-items: center; */
+}
+.todo{
+  display: flex;
+   /* background-color:rgb(204,221,255); */
+   /* background-image:"https://media.istockphoto.com/id/1328507962/photo/digital-background-with-moving-glowing-particles-futuristic-hi-tech-illustration-concept-of.jpg?b=1&s=170667a&w=0&k=20&c=uls-KlsHZ3fTNEQBznANnYIOE1zmBGubnu4ZVHyw3fQ="; */
+  justify-content: center;
+  height: 80vh;
+  width: 70vw; 
+  flex-direction: column;
+  position: relative;
+  /* left: 50%;
+  top: 50%; */
+  /* transform: translate(-50%,-50%); */
+  border-radius: 5%;
+  box-shadow: 50px 60px 70px rgb(32, 26, 37);
+  color: white;
+ 
+
+}
+
+/* .activity{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+.parent-home{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top:8vh;
+}
+.home{
+  display: flex;
+  /* background-color: rgba(55, 41, 58, 0.684); */
+  background-color: rgb(204,221,255);
+ height: auto;
+  justify-content: center;
+  /* height: 80vh; */
+  /* width: 100vw; */
+  /* position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%); */
+  border-radius: 5%;
+  box-shadow: 50px 60px 70px rgb(32, 26, 37);
+  color: white;
+}
+img{
+  border-radius: 5%;
+}
+.navbar{
+  /* position: fixed; */
+  /* background-attachment: fixed; */
+  /* top: 0; */
+  /* position: relative; */
+  /* width: 100vh; */
 }
 
 @keyframes App-logo-spin {
